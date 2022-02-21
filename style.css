@@ -1,0 +1,15 @@
+#navbar {
+    top: 0%;
+    position: sticky;
+    z-index: 2;
+}
+
+#maincontainer {
+    padding: 5vh;
+    background-color: rgba(227, 217, 228, 0.911);
+}
+
+#tablecontainer {
+    padding: 5vh;
+    background-color: rgba(232, 236, 236, 0.91);
+}
