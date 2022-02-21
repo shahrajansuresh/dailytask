@@ -1,0 +1,101 @@
+    #navbarDropdown {
+        visibility: hidden;
+    }
+    
+    #nav-item {
+        visibility: hidden;
+    }
+    
+    .slip {
+        background: rgb(224, 212, 212);
+        color: black;
+        padding-top: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    /* DEMO-SPECIFIC STYLES */
+    
+    .slip #h11 {
+        color: rgb(15, 13, 13);
+        font-family: monospace;
+        font-size: 3vh;
+        overflow: hidden;
+        padding: 1vh;
+        /* Ensures the content is not revealed until the animation */
+        border-right: 0.25vw solid rgb(183, 202, 182);
+        /* The typwriter cursor */
+        white-space: nowrap;
+        /* Keeps the content on a single line */
+        margin: 0 auto;
+        /* Gives that scrolling effect as the typing happens */
+        /* letter-spacing: .10em; */
+        /* Adjust as needed */
+        animation: typing 3.5s;
+    }
+    
+    .addnote {
+        display: flex;
+        justify-content: flex-start;
+        background-color: darkgray;
+        height: 60vh;
+        overflow-y: scroll;
+        align-content: center;
+    }
+    
+    .slip #h12 {
+        color: rgb(15, 13, 13);
+        font-family: monospace;
+        font-size: 3vh;
+        overflow: hidden;
+        padding: 1vh;
+        /* Ensures the content is not revealed until the animation */
+        border-right: 0.25vw solid rgb(183, 202, 182);
+        /* The typwriter cursor */
+        white-space: nowrap;
+        /* Keeps the content on a single line */
+        margin: 0 auto;
+        /* Gives that scrolling effect as the typing happens */
+        /* letter-spacing: .10em; */
+        /* Adjust as needed */
+        animation: typing1 4s;
+    }
+    
+    #todoheading {
+        background-color: rgb(70, 73, 70);
+        padding-left: 2vw;
+        color: white;
+    }
+    
+    #card12 {
+        background-color: rgb(219, 231, 219);
+    }
+    
+    .c15 {
+        background-color: rgba(244, 250, 249, 0.938);
+    }
+    
+    #searchbtn a {
+        text-decoration: none;
+        list-style: none;
+    }
+    /* The typing effect */
+    
+    @keyframes typing {
+        from {
+            width: 0
+        }
+        to {
+            width: 57%
+        }
+    }
+    
+    @keyframes typing1 {
+        from {
+            width: 0
+        }
+        to {
+            width: 48%
+        }
+    }
+    /* The typewriter cursor effect */
